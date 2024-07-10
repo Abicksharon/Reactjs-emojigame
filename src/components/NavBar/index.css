@@ -1,0 +1,36 @@
+/* Write your code here. */
+nav {
+  height: 70px;
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  height: 40px;
+}
+.logo-head {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.navbar {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.scores {
+  display: flex;
+  align-items: center;
+}
+.score {
+  color: white;
+  font-weight: bold;
+  margin-right: 25px;
+  font-size: 18px;
+}
+.tscore {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}

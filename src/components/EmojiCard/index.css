@@ -1,0 +1,37 @@
+/* Write your code here. */
+@media screen and (orientation: landscape) {
+  .emoji-button {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #ffffff30 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    outline: none;
+  }
+  .emoji-img {
+    height: 75px;
+  }
+}
+@media screen and (orientation: portrait) {
+  .emoji-button {
+    height: 85px;
+    width: 85px;
+    background-color: #ffffff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #ffffff30 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    outline: none;
+  }
+  .emoji-img {
+    height: 55px;
+  }
+}
